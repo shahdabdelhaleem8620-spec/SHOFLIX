@@ -1,0 +1,20 @@
+body {
+    background: #000;
+}
+
+.text-secondary {
+    color: #b3b3b3 !important;
+}
+/* صور الأقسام: نفس النسبة ومن غير تشويه */
+.feature-img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+}
+
+/* الصورتين الصغيرين جنب بعض في Feature 3 */
+.feature-img-sm {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
